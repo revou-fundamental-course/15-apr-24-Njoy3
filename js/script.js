@@ -1,17 +1,21 @@
 //ini script js
 
-let isReverse= false;
-function reverse(); {
-    let cToF = document.getElementById("c-to-f");
-    let fToC = document.getElementById("f-to-c");
+let isReverse= true;
+function reverse()  {
+    let cTof = document.getElementById("c-to-f");
+    let fToc = document.getElementById("f-to-c");
 
     if (isReverse) {
         console.log(isReverse);
-        fToC.style.display = "block";
-        cToF.style.display = "none";
+        fToc.style.display = "block";
+        cTof.style.display = "none";
+        isReverse = false;
     } else {
-        console.log(isReverse)
-        cToF.style.display = "none";
-        fToC.style.display = "block";
+        console.log(isReverse);
+        cTof.style.display = "block";
+        fToc.style.display = "none";
+        isReverse = true;
     }
 }
+
+

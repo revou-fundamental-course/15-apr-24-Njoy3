@@ -64,19 +64,19 @@ button {
     font-family: Arial;
 }
 
-#button-Convert {
+#button-convert {
     background-color: green;
     color: black;
     margin-right: 8px;
 }
 
-#button-Reset {
+#button-reset {
     background-color: yellow;
     color: black;
     margin-right: 8px;
 }
 
-#button-Reverse {
+#button-reverse {
     background-color: red;
     color: black;
 }

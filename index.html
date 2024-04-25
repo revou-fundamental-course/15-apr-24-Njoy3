@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scal=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
         <title>Temperatur Converter </title>
     </head>
 
@@ -21,19 +22,19 @@
                     </p>
                 </section>
 
-                <div id="c-to-f">
+                <form id="c-to-f">
                     <section class="section-celcius">
                         <header>
                             <h3>Celcius (&deg;C) :</h3>       
                         </header>
 
                         <article>
-                            <textarea rows="1"></textarea>                        
+                            <textarea rows="1" id="c-to-f-input"></textarea>                        
                          
                             <div class="container-button">
-                                <button id="button-Convert">Convert</button>
-                                <button id="button-Reset">Reset</button>
-                                <button id="button-Reverse" onclick="reverse();">Reverse</button>
+                                <button id="button-convert" type="button">Convert</button>
+                                <button id="button-reset">Reset</button>
+                                <button id="button-reverse" onclick="reverse();">Reverse</button>
                             </div>
                         </article> 
                     </section>
@@ -47,9 +48,9 @@
                             <textarea rows="1"></textarea>
                         </article>
                     </section>
-                </div>
+                </form>
 
-                <div id="f-to-c">                     
+                <form id="f-to-c">                     
                     <section class="section-fahrenheit">
                         <header>
                             <h3>Fahrenheit (&deg;F) :</h3>       
@@ -69,13 +70,13 @@
                             <textarea rows="1"></textarea>                       
 
                             <div class="container-button">
-                                <button id="button-Convert">Convert</button>
-                                <button id="button-Reset">Reset</button>
-                                <button id="button-Reverse" onclick="reverse();">Reverse</button>                           
-                                </div>
+                                <button id="button-convert">Convert</button>
+                                <button id="button-reset">Reset</button>
+                                <button id="button-reverse" onclick="reverse();">Reverse</button>                           
+                            </div>
                         </article>
                     </section>
-                </div>          
+                </form>          
             
                 
                 <section class="section-result">
